@@ -3,39 +3,42 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CarolApp.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+   <Grid>
+   <Image Source="capapp.png"
+     Opacity=".6"
+     Aspect="AspectFill"/>
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+    <Label Text="textando"
+        TextColor="white"
+        Margin="20"
+        FontSize="60"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"/>
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+    <VerticalStackLayout
+                            VerticalOptions="End"
+                            Spacing="10"
+                            Margin="15,0,15,40">
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+            <Button Text="Iniciar"
+            Clicked="StartButton_1"
+            HeightRequest="50"
+            CornerRadius="25"
+            BackgroundColor="White"
+            TextColor="Black"
+            Margin="0,0,0,10"
+            FontSize="18"/>
+            
+            <Button Text="Sobre"
+            Clicked="StartButton_2"
+            BorderColor="White"
+            BorderWidth="1"
+            HeightRequest="50"
+            CornerRadius="25"
+            BackgroundColor="White"
+            TextColor="Black"
+            FontSize="16"/>
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
-
-        </VerticalStackLayout>
-    </ScrollView>
-
-</ContentPage>
+      </VerticalStackLayout>  
+      </Grid>
+      </ContentPage>
