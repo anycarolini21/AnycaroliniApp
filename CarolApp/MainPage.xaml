@@ -1,17 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CarolApp.MainPage">
+             x:Class="CarolApp.MainPage"
+             Shell.NavBarIsVisible="false">
 
    <Grid>
-   <Image Source="capapp.png"
-     Opacity=".6"
+   <Image Source="capacorrigidaapp.png"
+     BackgroundColor="black"
      Aspect="AspectFill"/>
 
-    <Label Text="textando"
-        TextColor="white"
+    <Label Text="Navegando"
+        TextColor="Black"
         Margin="20"
-        FontSize="60"
+        FontSize="40"
+        FontFamily="roman"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"/>
+
+        <Label Text="Por águas obscuras"
+        TextColor="Black"
+        Margin="0, 50, 0, 0"
+        FontSize="25"
+        FontFamily="roman"
         HorizontalOptions="Center"
         VerticalOptions="Center"/>
 
@@ -22,21 +32,23 @@
 
             <Button Text="Iniciar"
             Clicked="StartButton_1"
+            BorderColor="Black"
+            BorderWidth="1"
             HeightRequest="50"
             CornerRadius="25"
-            BackgroundColor="White"
-            TextColor="Black"
+            BackgroundColor="#3b2808"
+            TextColor="White"
             Margin="0,0,0,10"
             FontSize="18"/>
             
             <Button Text="Sobre"
             Clicked="StartButton_2"
-            BorderColor="White"
+            BorderColor="Black"
             BorderWidth="1"
             HeightRequest="50"
             CornerRadius="25"
-            BackgroundColor="White"
-            TextColor="Black"
+            BackgroundColor="#3b2808"
+            TextColor="White"
             FontSize="16"/>
 
       </VerticalStackLayout>  
