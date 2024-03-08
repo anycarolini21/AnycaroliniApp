@@ -11,15 +11,16 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	private void StartButton_1(object sender, EventArgs args)
-	{
-
-	}
+	
 
 	private void StartButton_2(object sender, EventArgs args)
 	{
-
+      framesobre.isVisible= false;
 	}
-
+    private void Botão(object sender, EventArgs args)
+    {
+		if (Application.Current != null)
+		 Application.Current.MainPage = new CarolApp();
+	}
 
 }
