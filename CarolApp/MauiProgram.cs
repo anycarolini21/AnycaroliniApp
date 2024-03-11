@@ -13,7 +13,9 @@ public static class MauiProgram
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-				fonts.AddFont("Roman SD.ttf", "roman");
+				fonts.AddFont("RomanSD.ttf", "roman");
+				fonts.AddFont("DOMINICA.TTF", "Dominica");
+				fonts.AddFont("ROMANUS.otf", "romanus");
 			});
 
 #if DEBUG

@@ -1,6 +1,9 @@
 namespace CarolApp;
 
-public partial class MainPage : CarolPage;
+public partial class CarolPage
 {
-    
+    public CarolPage()
+	{
+		InitializeComponent();
+	}
 }
