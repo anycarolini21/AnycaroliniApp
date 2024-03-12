@@ -5,15 +5,15 @@
              Shell.NavBarIsVisible="false">
 
     <Grid> 
-        <Image Source="primerafoto.png"
+        <Image Source="fotoatualizada.png"
                 Aspect="AspectFill"/>
                
 
-               
+
         <Label Text="Olá aventureiro..."
                 TextColor="Black"
-                Margin="25"
-                FontSize="20"
+                Margin="150"
+                FontSize="10"
                 HorizontalOptions="Center"
                 FontFamily="roman"/>
            
