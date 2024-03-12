@@ -4,5 +4,28 @@
              x:Class="CarolApp.CarolPage"
              Shell.NavBarIsVisible="false">
 
-        
- </ContentPage>             
+    <Grid> 
+        <Image Source="primerafoto.png"
+                Aspect="AspectFill"/>
+               
+
+               
+        <Label Text="Olá aventureiro..."
+                TextColor="Black"
+                Margin="25"
+                FontSize="20"
+                HorizontalOptions="Center"
+                FontFamily="roman"/>
+           
+        <Button Text="Continuar"
+                BorderColor="Black"
+                BorderWidth="1"
+                HeightRequest="40"
+                CornerRadius="25"
+                BackgroundColor="Black"
+                TextColor="White"
+                Margin="50,50"
+                FontSize="15"/>
+
+   </Grid>
+</ContentPage>
