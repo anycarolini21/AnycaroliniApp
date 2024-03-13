@@ -5,27 +5,58 @@
              Shell.NavBarIsVisible="false">
 
     <Grid> 
+
+        <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    </Grid.RowDefinitions>
+
         <Image Source="fotoatualizada.png"
-                Aspect="AspectFill"/>
+                Aspect="AspectFill"
+                Grid.RowSpan="4"/>
+
                
 
 
-        <Label Text="Olá aventureiro..."
+        <Label Text="Olá viajante, você já está atrasado para iniciar uma grande aventura em alto mar. está preparado?"
                 TextColor="Black"
-                Margin="150"
-                FontSize="10"
+                Margin="10, 500, 10, 100"
+                FontSize="15"
                 HorizontalOptions="Center"
                 FontFamily="roman"/>
            
-        <Button Text="Continuar"
-                BorderColor="Black"
-                BorderWidth="1"
-                HeightRequest="40"
-                CornerRadius="25"
-                BackgroundColor="Black"
-                TextColor="White"
-                Margin="50,50"
-                FontSize="15"/>
+       
+ 
+
+            <Button Text="Estou !!"
+                    Clicked="StartButton_3"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    BackgroundColor="#7a6642"
+                    TextColor="White"
+                    Margin="0,0,0,10"
+                    FontSize="18"
+                    Grid.Row="1"/>
+                    
+            <Button Text="Não estou."
+                    Clicked="StartButton_4"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    BackgroundColor="#7a6642"
+                    TextColor="White"
+                    FontSize="16"
+                    Grid.Row="2"/>
+            
+
+
+           
+    
 
    </Grid>
 </ContentPage>
