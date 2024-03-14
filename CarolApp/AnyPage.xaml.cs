@@ -2,15 +2,15 @@ using Microsoft.Maui.Controls;
 
 namespace CarolApp;
 
-public partial class CarolPage
+public partial class AnyPage
 {
-    public CarolPage()
+    public AnyPage()
 	{
 		InitializeComponent();
-	}
-	private void StartButton_5(object sender, EventArgs args)
+    }
+    private void StartButton_5(object sender, EventArgs args)
 	{
-	 Application.Current.MainPage = new AnyPage();
+	 Application.Current.MainPage = new MainPage();
 	}
 	
 

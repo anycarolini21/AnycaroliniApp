@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CarolApp.CarolPage"
+             x:Class="CarolApp.FabPage"
              Shell.NavBarIsVisible="false">
 
     <Grid> 
@@ -29,7 +29,7 @@
                 Grid.Row="1"/>
 
         <Button Text="Estou !!"
-                Clicked="StartButton_3"
+                Clicked="StartButton_5"
                 BorderWidth="1"
                 HeightRequest="50"
                 CornerRadius="25"
@@ -40,7 +40,7 @@
                 Grid.Row="2"/>
                 
         <Button Text="Não estou."
-                Clicked="StartButton_4"
+                Clicked="StartButton_6"
                 BorderWidth="1"
                 HeightRequest="50"
                 CornerRadius="25"

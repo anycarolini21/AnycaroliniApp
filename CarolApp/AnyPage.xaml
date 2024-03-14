@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CarolApp.CarolPage"
+             x:Class="CarolApp.AnyPage"
              Shell.NavBarIsVisible="false">
 
-    <Grid> 
+
+<Grid> 
 
         <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
@@ -13,14 +14,14 @@
                     <RowDefinition Height="60"/>
                     </Grid.RowDefinitions>
 
-        <Image Source="anyapp.png"
+        <Image Source="navioporto.png"
                 Aspect="AspectFill"
                 Grid.RowSpan="4"/>
 
                
 
 
-        <Label Text="Olá viajante, você já está atrasado para iniciar uma grande aventura em alto mar. está preparado?"
+        <Label Text="Já são 10:00 da manhã e você está atrsado para entrar no navio, entre logo antes que você perca !!"
                 TextColor="Black"
                 VerticalOptions="Start"
                 FontSize="15"
@@ -28,8 +29,8 @@
                 FontFamily="roman"
                 Grid.Row="1"/>
 
-        <Button Text="Estou !!"
-                Clicked="StartButton_3"
+        <Button Text="Entrar no navio"
+                Clicked="StartButton_5"
                 BorderWidth="1"
                 HeightRequest="50"
                 CornerRadius="25"
@@ -39,8 +40,8 @@
                 FontSize="18"
                 Grid.Row="2"/>
                 
-        <Button Text="Não estou."
-                Clicked="StartButton_4"
+        <Button Text="Não entrar no navio"
+                Clicked="StartButton_6"
                 BorderWidth="1"
                 HeightRequest="50"
                 CornerRadius="25"
@@ -51,3 +52,4 @@
             
    </Grid>
 </ContentPage>
+           
